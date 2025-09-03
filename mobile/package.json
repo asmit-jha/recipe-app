@@ -9,7 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "web-build": "npx expo export --platform web"
+    "web-build": "npx expo export --platform web --output-dir dist"
   },
   "dependencies": {
     "@clerk/clerk-expo": "^2.14.27",
